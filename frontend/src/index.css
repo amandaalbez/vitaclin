@@ -83,3 +83,37 @@ main {
     margin-top: 80px;
   }
 }
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+
+  /* fundo com gradiente sutil + imagem */
+  background-image: 
+    linear-gradient(rgba(62, 214, 195, 0.25), rgba(62, 214, 195, 0.25)),
+    url('/src/assets/clinica-bg.jpg'); /* ajuste o caminho da sua imagem */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* melhora contraste do texto */
+}
+
+.hero p {
+  font-size: 1.25rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+
